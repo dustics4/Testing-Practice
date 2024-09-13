@@ -9,5 +9,5 @@ test("Reversed String", () => {
 });
 
 test("Not to be a number", () => {
-    expect((reversed("reversed")).to.notBe(2));
+    expect((reversed("reversed")).not.toBe(2));
 })
