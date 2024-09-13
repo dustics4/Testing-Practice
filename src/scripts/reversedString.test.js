@@ -1,13 +1,13 @@
-import reversed from "./reversedString.js";
+const reversed = require('./reversedString.js');
 
 test("Reversed String", () => {
-    expect((reversed("reversed")).toMatch(/desrever/));
+    expect(reversed("reversed")).toMatch(/desrever/);
 });
 
 test("Reversed String", () => {
-    expect((reversed("john")).toMatch(/nhoj/));
+    expect(reversed("john")).toMatch(/nhoj/);
 });
 
 test("Not to be a number", () => {
-    expect((reversed("reversed")).not.toBe(2));
+    expect(reversed("reversed")).not.toBe(2); 
 })
