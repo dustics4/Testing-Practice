@@ -8,7 +8,7 @@ test("Function Shifted : ", () => {
     expect(cipher("Hello, World!", 3)).toMatch(/Khoor, Zruog!/);
 })
 
-test("This is a num!" , () => {
+test("This is a not num!" , () => {
     expect(cipher("Hello, World!")).not.toBe(1);
 })
 
