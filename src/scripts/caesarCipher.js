@@ -37,7 +37,6 @@ const cipher = (string, n) => {
         // if isLeter(char)})
         //return shiftChar(char,n)
         //else return char
-
     return splitString.join("");
     //join shifted array
 };
