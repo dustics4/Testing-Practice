@@ -20,8 +20,6 @@ function shiftChar(char, shift){
     return String.fromCharCode(((charCode - base + shift) % 26) + base);   // Shift the character and wrap around using modulo
 }
 
-shiftChar("aaa" , 3);
-
 //function to cpyher, which uses first checking for lettrs and spacing , then shifting
 const cipher = (string, n) => {
 
