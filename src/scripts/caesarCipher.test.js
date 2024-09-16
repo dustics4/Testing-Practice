@@ -11,3 +11,7 @@ test("Function Shifted : ", () => {
 test("This is a num!" , () => {
     expect(cipher("Hello, World!")).not.toBe(1);
 })
+
+test(`1 becomes "not a string"` , () =>{
+    expect(cipher(1)).toBe('not a string');
+})
