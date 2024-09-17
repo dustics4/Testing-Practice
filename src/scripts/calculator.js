@@ -1,5 +1,5 @@
 const add = (a , b) => {
-
+    return a + b;
 }
 
 const subtract = (a , b) => {
@@ -14,4 +14,11 @@ const multiply = (a, b) => {
 
 }
 
-module.exports = add , subtract, divide, multiply;
+const calculator = {
+    add , 
+    subtract,
+    divide,
+    multiply
+}
+
+module.exports = calculator;
