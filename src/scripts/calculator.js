@@ -11,7 +11,7 @@ const divide = (a, b) => {
 }
 
 const multiply = (a, b) => {
-
+    return a * b;
 }
 
 const calculator = {

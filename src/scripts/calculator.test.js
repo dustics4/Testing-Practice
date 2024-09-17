@@ -33,5 +33,17 @@ test("Divide (8, 4) to be 2", () =>{
 })
 
 test("Divide is a integer", () => {
-    expect(calculator.divide(-4,2)).not.toBe(/string/);
+    expect(calculator.divide(8,2)).not.toBe(/string/);
+})
+
+test("Multiply (6, 2) to be 12", () => {
+    expect(calculator.multiply(6,2)).toBe(12);
+})
+
+test("Multiply (8, 2) to be 16", () =>{ 
+    expect(calculator.multiply(8,2)).toBe(16);
+})
+
+test("Multiply is a integer", () => {
+    expect(calculator.multiply(8,2)).not.toBe(/string/);
 })
