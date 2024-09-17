@@ -1,4 +1,4 @@
-const { default: analyzeArray } = require("./analyzeArray")
+import analyzeArray from "./analyzeArray";
 
 test("Normal number array", () => {
     expect(analyzeArray([1,2,3,4,5])).toEqual({
